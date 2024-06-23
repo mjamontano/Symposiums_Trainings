@@ -9,7 +9,7 @@
     }
         
     table1, table2, table3, th, td {
-        border: inset;
+        border: inset rgba(26, 46, 70, 1);
     }
 
     th, td, h1, h2, h3 {
@@ -32,6 +32,18 @@
 
     }
 
+    .background {
+        background-image: url('Watermark 2.png');
+        background-position: center; /* Centers the background image within the container */
+        background-size: cover; /* Adjusts the size of the background image to cover the entire container */
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: -1; /* Ensure the background is behind other content */
+    }
+
     .badge {
         height: auto; /* Maintain the aspect ratio */
         width: 150px; /* Set the desired width */
@@ -40,9 +52,9 @@
     /* Logo styling */
     .logo {
         background-color: #f2f2f2; /* Background color of the logo */
-        border: inset #0000cc; /* Border color */
+        border: inset rgba(26, 46, 70, 1); /* Border color */
         border-radius: 5px; /* Rounded corners */
-        color: #0000cc; /* Change the color as needed */
+        color: rgba(26, 46, 70, 1); /* Change the color as needed */
         font-size: 50px;
         font-weight: bold;
         letter-spacing: 20px;
