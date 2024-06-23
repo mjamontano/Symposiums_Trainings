@@ -1,3 +1,7 @@
+/* 6th Sprint Update: 06/23/2024 (Deadline: 06/23/2024) 
+    Changed color scheme from #0000cc to rgba(26, 46, 70, 1) & rgba(194, 0, 0 , 0.80)
+    Added classes .background, .center-container, .home-button, .home-button:hover */
+
 <style>
     body {
         background-color: #ffffff; /* Set your desired background color */
@@ -47,6 +51,30 @@
     .badge {
         height: auto; /* Maintain the aspect ratio */
         width: 150px; /* Set the desired width */
+    }
+
+    .center-container {
+        text-align: right;
+    }
+
+    /* Style for the home button */
+    .home-button {
+        display: inline-block;
+        background-color: rgba(194, 0, 0 , 0.80);
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        border: solid;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: inset rgba(26, 46, 70, 1);
+    }
+    
+    .home-button:hover {
+        background-color: rgba(26, 46, 70, 1); /* Darker shade of the primary color on hover */
     }
 
     /* Logo styling */
