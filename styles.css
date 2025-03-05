@@ -95,4 +95,30 @@
     .underline {
         text-decoration: underline;
     }
+
+    /* Style for the Scroll Up button */
+    .scroll-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: rgba(194, 0, 0 , 0.80);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+        font-size: 18px;
+        cursor: pointer;
+        display: none; /* Initially hidden */
+        transition: opacity 0.3s;
+    }
+
+    .scroll-btn:hover {
+        background-color: rgba(26, 46, 70, 1);
+    }
+
+    /* Optional: Smooth scroll for the entire page */
+    html {
+        scroll-behavior: smooth;
+    }
+    
 </style>
