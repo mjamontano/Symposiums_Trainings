@@ -1,8 +1,3 @@
-/* 6th Sprint Update: 06/23/2024 (Deadline: 06/23/2024) 
-    Changed color scheme from #0000cc to rgba(26, 46, 70, 1) & rgba(194, 0, 0 , 0.80)
-    Added classes .background, .center-container, .home-button, .home-button:hover */
-
-<style>
     body {
         background-color: #ffffff; /* Set your desired background color */
     }
@@ -101,10 +96,11 @@
         position: fixed;
         bottom: 30px;
         right: 30px;
-        background-color: rgba(194, 0, 0 , 0.80);
+        background-color: rgba(194, 0, 0 , 1);
         color: white;
-        border: none;
+        border: solid;
         border-radius: 50%;
+        border-color: black;
         padding: 15px;
         font-size: 18px;
         cursor: pointer;
@@ -114,11 +110,10 @@
 
     .scroll-btn:hover {
         background-color: rgba(26, 46, 70, 1);
+        color: white;
     }
 
     /* Optional: Smooth scroll for the entire page */
     html {
         scroll-behavior: smooth;
     }
-    
-</style>
